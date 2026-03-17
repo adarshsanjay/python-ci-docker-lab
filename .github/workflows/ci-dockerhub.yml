@@ -53,3 +53,4 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-ci-lab:latest
+          platforms: linux/amd64,linux/arm64
